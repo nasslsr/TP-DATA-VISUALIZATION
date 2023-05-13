@@ -1,0 +1,170 @@
+body {
+  font-family: "Times New Roman", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F6F6F6;
+}
+
+.appbar {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  border : 3px solid black;
+  justify-content: space-around;
+  background-color: #92DAF5;
+}
+#logo{
+  margin-left:1% ;
+}
+
+#titre {
+  margin-left: 20%;
+  font-size: 36px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#nom_equipe {
+  margin-right: 1%;
+  font-weight: bold
+}
+
+.appbar img {
+  height: 3.5rem;
+}
+
+
+#note-input {
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
+  display: block;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+#note-delete {
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+  display: block;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+#add-note {
+  display: block;
+  width: 40%;
+  padding: 20px;
+  margin: 20px auto;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+#delete-note {
+  display: block;
+  width: 40%;
+  padding: 20px;
+  margin: 20px auto;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+#add-note:hover {
+   background-color: #68CF61;
+}
+
+#delete-note:hover {
+   background-color: red;
+}
+
+.note {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 80%;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.note:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  border-right: none;
+}
+
+.note:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-left: none;
+}
+
+.note p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+#notes {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff
+}
+
+
+#logo {
+  float : right;
+
+}
+
+#logo img{
+  height: 20px;
+  margin : 10px;
+}
+
+
+
+.app-container {
+  margin-top: 2rem;
+}
+
+
